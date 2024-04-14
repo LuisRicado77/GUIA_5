@@ -22,7 +22,7 @@ import org.springframework.beans.factory.annotation.Value;
 @Controller
 @Slf4j
 public class ControladorInicio {
-    @Value("${index.nensaje}")
+    @Value("${index.mensaje}")
     String dato;
     @GetMapping("/")
     public String inicio(Model modelo){

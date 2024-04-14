@@ -38,12 +38,16 @@
 			<artifactId>spring-boot-starter-test</artifactId>
 			<scope>test</scope>
 		</dependency>
-	 <dependency>
-	  <groupId>com.discord4j.immutables</groupId>
-	  <artifactId>value-annotations</artifactId>
-	  <version>2.9.0-GH-1320.0</version>
-	  <type>jar</type>
-	 </dependency>
+                <dependency>
+                    <groupId>com.discord4j.immutables</groupId>
+                    <artifactId>value-annotations</artifactId>
+                    <version>2.9.0-GH-1320.0</version>
+                    <type>jar</type>
+                </dependency>
+                <dependency>
+                    <groupId>org.springframework.boot</groupId>
+                    <artifactId>spring-boot-starter-thymeleaf</artifactId>
+                </dependency>
 	</dependencies>
 
 	<build>
